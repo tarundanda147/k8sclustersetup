@@ -456,7 +456,7 @@ name: **ip-10-0-0-186.eu-west-3.compute.internal**
 ```bash
 cat << EOF > /etc/kubernetes/node.yml
 ---
-apiVersion: kubeadm.k8s.io/v1beta1
+apiVersion: kubeadm.k8s.io/v1beta2
 kind: JoinConfiguration
 discovery:
   bootstrapToken:
